@@ -1,0 +1,11 @@
+.item {
+    border: 1px solid;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+}
+.button {
+    height: 20px;
+}
