@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 import ContactList from "../../components/ContactList/ContactList";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import SearchBox from "../../components/SearchBox/SearchBox";
-import {apiGetContacts } from "../../redux/contacts/contactsOps";
+import {apiGetContacts } from "../../redux/contacts/operations";
 import { useEffect } from "react";
 import { selectContacts, selectContactsIsError, selectContactsIsLoading } from "../../redux/contacts/selectors";
 import Loader from "../../components/Loader/Loader";

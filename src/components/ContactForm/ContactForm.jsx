@@ -3,7 +3,7 @@ import { nanoid } from "nanoid";
 import * as Yup from "yup";
 import { MAX_CHAR_LENGTH, MIN_CHAR_LENGTH } from "../utility/constants";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contacts/contactsOps";
+import { addContact } from "../../redux/contacts/operations";
 
 const formSchema = Yup.object().shape({
   name: Yup.string()

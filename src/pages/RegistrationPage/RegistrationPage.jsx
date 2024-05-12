@@ -7,7 +7,7 @@ import {
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
-import { apiRegister } from "../../redux/auth/authOps";
+import { apiRegister } from "../../redux/auth/operations";
 
 const RegisterUserSchema = Yup.object().shape({
   name: Yup.string()

@@ -7,7 +7,7 @@ import Layout from "./components/Layout/Layout";
 import { useDispatch } from "react-redux";
 import RestrictedRoute from "./components/RestrictedRoute/RestrictedRoute";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
-import { apiRefreshUser } from "./redux/auth/authOps";
+import { apiRefreshUser } from "./redux/auth/operations";
 
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const RegistrationPage = lazy(() =>

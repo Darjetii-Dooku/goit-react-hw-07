@@ -3,7 +3,7 @@ import { nanoid } from "nanoid";
 import Contact from "../Contact/Contact";
 import css from "./ContactList.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteContact } from "../../redux/contacts/contactsOps";
+import { deleteContact } from "../../redux/contacts/operations";
 import { selectContactsIsLoading, selectFilteredContacts } from "../../redux/contacts/selectors";
 import Loader from "../Loader/Loader";
 

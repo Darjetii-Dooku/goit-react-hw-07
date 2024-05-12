@@ -4,7 +4,7 @@ import {
   createSlice,
   isAnyOf,
 } from "@reduxjs/toolkit";
-import { apiLogin, apiLogout, apiRefreshUser, apiRegister } from "./authOps";
+import { apiLogin, apiLogout, apiRefreshUser, apiRegister } from "./operations";
 
 
 const INITIAL_STATE = {
