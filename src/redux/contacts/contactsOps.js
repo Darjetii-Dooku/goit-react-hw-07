@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { instance } from "../auth/authSlice";
+import { instance } from "../auth/authOps";
 
 export const apiGetContacts = createAsyncThunk(
   "contacts/getAll",

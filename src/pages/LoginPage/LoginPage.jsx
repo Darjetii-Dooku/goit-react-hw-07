@@ -3,7 +3,7 @@ import { MAX_CHAR_LENGTH, MIN_CHAR_LENGTH, MIN_CHAR_PASSWORD } from "../../compo
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
-import { apiLogin } from "../../redux/auth/authSlice";
+import { apiLogin } from "../../redux/auth/authOps";
 
 const LoginUserSchema = Yup.object().shape({
     email: Yup.string()
