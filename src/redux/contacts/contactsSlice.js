@@ -1,5 +1,5 @@
 import { createSelector, createSlice } from "@reduxjs/toolkit";
-import { apiGetContacts, addContact, deleteContact } from "./contactsOps";
+import { apiGetContacts, addContact, deleteContact } from "./operations"
 
 const INITIAL_STATE = {
   contacts: {
